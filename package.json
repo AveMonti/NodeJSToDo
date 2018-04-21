@@ -1,0 +1,29 @@
+{
+  "name": "nodejstodo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattchojnacki/NodeJSToDo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattchojnacki/NodeJSToDo/issues"
+  },
+  "homepage": "https://github.com/mattchojnacki/NodeJSToDo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.15",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.3",
+    "save": "^2.3.2",
+    "save-dev": "^2.0.0"
+  }
+}
