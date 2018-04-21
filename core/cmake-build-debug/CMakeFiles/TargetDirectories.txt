@@ -1,0 +1,3 @@
+/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/cmake-build-debug/CMakeFiles/core.dir
