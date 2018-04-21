@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/main.cpp
+iostream
+-
+string
+-
+curl/curl.h
+-
+
