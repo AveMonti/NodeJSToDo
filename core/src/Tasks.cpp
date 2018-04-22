@@ -4,11 +4,16 @@
 
 #include "../includes/Tasks.h"
 
-Tasks::Tasks(std::list<Task> *_tasksList):
-        tasksList(_tasksList),
-        taskCount(_tasksList->size()) {}
+Tasks::Tasks(){
+    taskCount = 0;
+}
 
-std::list<Task> * Tasks::getTasksList() {
+void Tasks::addTask(Task _task){
+    tasksList.push_back(_task);
+    taskCount++;
+}
+
+std::list<Task> Tasks::getTasksList() {
     return tasksList;
 }
 

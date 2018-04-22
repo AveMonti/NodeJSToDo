@@ -15,8 +15,6 @@ curl/curl.h
 -
 rapidjson/document.h
 -
-typeinfo
--
 iostream
 -
 string

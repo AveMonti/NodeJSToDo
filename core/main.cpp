@@ -6,7 +6,9 @@
 int main() {
     std::cout<< "Start" << std::endl;
     TaskReq req = TaskReq();
-    req.getTasks();
+    //req.getTask("5adc71b5ee6a9804ad76b649");
+
+    std::cout<<"Tutaj "<<req.getTasks().getCountList()<<std::endl;
 
     return 0;
 }

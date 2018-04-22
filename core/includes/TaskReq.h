@@ -23,7 +23,8 @@ class TaskReq {
 
 public:
     TaskReq();
-    void getTasks();
+    Task getTask(std::string key);
+    Tasks getTasks();
 
 };
 
