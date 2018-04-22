@@ -12,11 +12,12 @@
 #include "Task.h"
 
 class Tasks {
-    std::list<Task> *tasksList;
+    std::list<Task> tasksList;
     int taskCount;
 public:
-    Tasks(std::list<Task>* _tasksList);
-    std::list<Task> * getTasksList();
+    Tasks();
+    void addTask(Task _task);
+    std::list<Task> getTasksList();
     int getCountList();
 };
 
