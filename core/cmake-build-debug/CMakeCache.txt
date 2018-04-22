@@ -192,6 +192,9 @@ CURL_INCLUDE_DIR:PATH=/usr/include
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
+//The directory containing a CMake configuration file for RapidJSON.
+RapidJSON_DIR:PATH=/usr/local/lib/cmake/RapidJSON
+
 //Value Computed by CMake
 core_BINARY_DIR:STATIC=/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/cmake-build-debug
 

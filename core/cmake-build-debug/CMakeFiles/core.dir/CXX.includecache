@@ -13,9 +13,17 @@ string
 /Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/includes/TaskReq.h
 curl/curl.h
 -
+rapidjson/document.h
+-
+typeinfo
+-
 iostream
 -
 string
+-
+cstdint
+-
+memory
 -
 Tasks.h
 /Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/includes/Tasks.h

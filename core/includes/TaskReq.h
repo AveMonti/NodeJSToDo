@@ -6,8 +6,12 @@
 #define CORE_TASKREQ_H
 
 #include <curl/curl.h>
+#include <rapidjson/document.h>
 #include <iostream>
 #include <string>
+#include <cstdint>
+#include <memory>
+
 #include "Tasks.h"
 #define staticUrl "http://localhost:3000/tasks/"
 
