@@ -82,7 +82,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/includes/Task.h">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/includes/TaskReq.h">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/includes/Tasks.h">
+			<Option target="core"/>
+		</Unit>
 		<Unit filename="/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/main.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/src/Task.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/src/TaskReq.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/src/Tasks.cpp">
 			<Option target="core"/>
 		</Unit>
 		<Unit filename="/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/CMakeLists.txt">

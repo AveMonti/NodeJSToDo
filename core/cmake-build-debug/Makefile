@@ -150,6 +150,87 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Task.o: src/Task.cpp.o
+
+.PHONY : src/Task.o
+
+# target to build an object file
+src/Task.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/Task.cpp.o
+.PHONY : src/Task.cpp.o
+
+src/Task.i: src/Task.cpp.i
+
+.PHONY : src/Task.i
+
+# target to preprocess a source file
+src/Task.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/Task.cpp.i
+.PHONY : src/Task.cpp.i
+
+src/Task.s: src/Task.cpp.s
+
+.PHONY : src/Task.s
+
+# target to generate assembly for a file
+src/Task.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/Task.cpp.s
+.PHONY : src/Task.cpp.s
+
+src/TaskReq.o: src/TaskReq.cpp.o
+
+.PHONY : src/TaskReq.o
+
+# target to build an object file
+src/TaskReq.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/TaskReq.cpp.o
+.PHONY : src/TaskReq.cpp.o
+
+src/TaskReq.i: src/TaskReq.cpp.i
+
+.PHONY : src/TaskReq.i
+
+# target to preprocess a source file
+src/TaskReq.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/TaskReq.cpp.i
+.PHONY : src/TaskReq.cpp.i
+
+src/TaskReq.s: src/TaskReq.cpp.s
+
+.PHONY : src/TaskReq.s
+
+# target to generate assembly for a file
+src/TaskReq.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/TaskReq.cpp.s
+.PHONY : src/TaskReq.cpp.s
+
+src/Tasks.o: src/Tasks.cpp.o
+
+.PHONY : src/Tasks.o
+
+# target to build an object file
+src/Tasks.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/Tasks.cpp.o
+.PHONY : src/Tasks.cpp.o
+
+src/Tasks.i: src/Tasks.cpp.i
+
+.PHONY : src/Tasks.i
+
+# target to preprocess a source file
+src/Tasks.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/Tasks.cpp.i
+.PHONY : src/Tasks.cpp.i
+
+src/Tasks.s: src/Tasks.cpp.s
+
+.PHONY : src/Tasks.s
+
+# target to generate assembly for a file
+src/Tasks.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/Tasks.cpp.s
+.PHONY : src/Tasks.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +243,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Task.o"
+	@echo "... src/Task.i"
+	@echo "... src/Task.s"
+	@echo "... src/TaskReq.o"
+	@echo "... src/TaskReq.i"
+	@echo "... src/TaskReq.s"
+	@echo "... src/Tasks.o"
+	@echo "... src/Tasks.i"
+	@echo "... src/Tasks.s"
 .PHONY : help
 
 

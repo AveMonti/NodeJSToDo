@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/core.dir/main.cpp.o"
+  "CMakeFiles/core.dir/src/TaskReq.cpp.o"
+  "CMakeFiles/core.dir/src/Task.cpp.o"
+  "CMakeFiles/core.dir/src/Tasks.cpp.o"
   "core.pdb"
   "core"
 )

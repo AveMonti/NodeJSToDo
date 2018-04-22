@@ -5,6 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/main.cpp" "/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/cmake-build-debug/CMakeFiles/core.dir/main.cpp.o"
+  "/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/src/Task.cpp" "/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/cmake-build-debug/CMakeFiles/core.dir/src/Task.cpp.o"
+  "/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/src/TaskReq.cpp" "/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/cmake-build-debug/CMakeFiles/core.dir/src/TaskReq.cpp.o"
+  "/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/src/Tasks.cpp" "/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/cmake-build-debug/CMakeFiles/core.dir/src/Tasks.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

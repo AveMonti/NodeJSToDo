@@ -81,17 +81,95 @@ CMakeFiles/core.dir/main.cpp.o.provides: CMakeFiles/core.dir/main.cpp.o.requires
 CMakeFiles/core.dir/main.cpp.o.provides.build: CMakeFiles/core.dir/main.cpp.o
 
 
+CMakeFiles/core.dir/src/TaskReq.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/src/TaskReq.cpp.o: ../src/TaskReq.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/core.dir/src/TaskReq.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/TaskReq.cpp.o -c /Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/src/TaskReq.cpp
+
+CMakeFiles/core.dir/src/TaskReq.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/src/TaskReq.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/src/TaskReq.cpp > CMakeFiles/core.dir/src/TaskReq.cpp.i
+
+CMakeFiles/core.dir/src/TaskReq.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/src/TaskReq.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/src/TaskReq.cpp -o CMakeFiles/core.dir/src/TaskReq.cpp.s
+
+CMakeFiles/core.dir/src/TaskReq.cpp.o.requires:
+
+.PHONY : CMakeFiles/core.dir/src/TaskReq.cpp.o.requires
+
+CMakeFiles/core.dir/src/TaskReq.cpp.o.provides: CMakeFiles/core.dir/src/TaskReq.cpp.o.requires
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/TaskReq.cpp.o.provides.build
+.PHONY : CMakeFiles/core.dir/src/TaskReq.cpp.o.provides
+
+CMakeFiles/core.dir/src/TaskReq.cpp.o.provides.build: CMakeFiles/core.dir/src/TaskReq.cpp.o
+
+
+CMakeFiles/core.dir/src/Task.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/src/Task.cpp.o: ../src/Task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/core.dir/src/Task.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/Task.cpp.o -c /Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/src/Task.cpp
+
+CMakeFiles/core.dir/src/Task.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/src/Task.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/src/Task.cpp > CMakeFiles/core.dir/src/Task.cpp.i
+
+CMakeFiles/core.dir/src/Task.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/src/Task.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/src/Task.cpp -o CMakeFiles/core.dir/src/Task.cpp.s
+
+CMakeFiles/core.dir/src/Task.cpp.o.requires:
+
+.PHONY : CMakeFiles/core.dir/src/Task.cpp.o.requires
+
+CMakeFiles/core.dir/src/Task.cpp.o.provides: CMakeFiles/core.dir/src/Task.cpp.o.requires
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/Task.cpp.o.provides.build
+.PHONY : CMakeFiles/core.dir/src/Task.cpp.o.provides
+
+CMakeFiles/core.dir/src/Task.cpp.o.provides.build: CMakeFiles/core.dir/src/Task.cpp.o
+
+
+CMakeFiles/core.dir/src/Tasks.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/src/Tasks.cpp.o: ../src/Tasks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core.dir/src/Tasks.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/src/Tasks.cpp.o -c /Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/src/Tasks.cpp
+
+CMakeFiles/core.dir/src/Tasks.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/src/Tasks.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/src/Tasks.cpp > CMakeFiles/core.dir/src/Tasks.cpp.i
+
+CMakeFiles/core.dir/src/Tasks.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/src/Tasks.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/src/Tasks.cpp -o CMakeFiles/core.dir/src/Tasks.cpp.s
+
+CMakeFiles/core.dir/src/Tasks.cpp.o.requires:
+
+.PHONY : CMakeFiles/core.dir/src/Tasks.cpp.o.requires
+
+CMakeFiles/core.dir/src/Tasks.cpp.o.provides: CMakeFiles/core.dir/src/Tasks.cpp.o.requires
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/Tasks.cpp.o.provides.build
+.PHONY : CMakeFiles/core.dir/src/Tasks.cpp.o.provides
+
+CMakeFiles/core.dir/src/Tasks.cpp.o.provides.build: CMakeFiles/core.dir/src/Tasks.cpp.o
+
+
 # Object files for target core
 core_OBJECTS = \
-"CMakeFiles/core.dir/main.cpp.o"
+"CMakeFiles/core.dir/main.cpp.o" \
+"CMakeFiles/core.dir/src/TaskReq.cpp.o" \
+"CMakeFiles/core.dir/src/Task.cpp.o" \
+"CMakeFiles/core.dir/src/Tasks.cpp.o"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
 
 core: CMakeFiles/core.dir/main.cpp.o
+core: CMakeFiles/core.dir/src/TaskReq.cpp.o
+core: CMakeFiles/core.dir/src/Task.cpp.o
+core: CMakeFiles/core.dir/src/Tasks.cpp.o
 core: CMakeFiles/core.dir/build.make
 core: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable core"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +178,9 @@ CMakeFiles/core.dir/build: core
 .PHONY : CMakeFiles/core.dir/build
 
 CMakeFiles/core.dir/requires: CMakeFiles/core.dir/main.cpp.o.requires
+CMakeFiles/core.dir/requires: CMakeFiles/core.dir/src/TaskReq.cpp.o.requires
+CMakeFiles/core.dir/requires: CMakeFiles/core.dir/src/Task.cpp.o.requires
+CMakeFiles/core.dir/requires: CMakeFiles/core.dir/src/Tasks.cpp.o.requires
 
 .PHONY : CMakeFiles/core.dir/requires
 
