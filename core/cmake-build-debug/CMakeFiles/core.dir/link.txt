@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/core.dir/main.cpp.o CMakeFiles/core.dir/src/TaskReq.cpp.o CMakeFiles/core.dir/src/Task.cpp.o CMakeFiles/core.dir/src/Tasks.cpp.o  -o core -lcurl 

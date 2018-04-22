@@ -1,4 +1,4 @@
 ### NodeToDO
 
-* $ mongod --port 27021 --dbpath workspace/web/NodeJSToDo/data/db/
+* $ mongod --port 27021 --dbpath workspace/web/NodeJSToDo/server/data/db/
 * npm start
