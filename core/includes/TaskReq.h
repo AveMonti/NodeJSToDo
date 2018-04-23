@@ -7,6 +7,8 @@
 
 #include <curl/curl.h>
 #include <rapidjson/document.h>
+#include "rapidjson/writer.h"
+#include "rapidjson/stringbuffer.h"
 #include <iostream>
 #include <string>
 #include <cstdint>
@@ -25,6 +27,7 @@ public:
     TaskReq();
     Task getTask(std::string key);
     Tasks getTasks();
+    void addTask(Task _task);
 
 };
 

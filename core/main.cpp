@@ -8,7 +8,9 @@ int main() {
     TaskReq req = TaskReq();
     //req.getTask("5adc71b5ee6a9804ad76b649");
 
-    std::cout<<"Tutaj "<<req.getTasks().getCountList()<<std::endl;
+//    std::cout<<"Tutaj "<<req.getTasks().getCountList()<<std::endl;
 
+    Task newTask = Task("ABC","HelloWorld",0);
+    req.addTask(newTask);
     return 0;
 }

@@ -15,6 +15,10 @@ curl/curl.h
 -
 rapidjson/document.h
 -
+rapidjson/writer.h
+/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/includes/rapidjson/writer.h
+rapidjson/stringbuffer.h
+/Users/mateuszchojnacki/workspace/web/NodeJSToDo/core/includes/rapidjson/stringbuffer.h
 iostream
 -
 string
