@@ -10,7 +10,8 @@ int main() {
 
 //    std::cout<<"Tutaj "<<req.getTasks().getCountList()<<std::endl;
 
-    Task newTask = Task("NewTask",0);
-    req.addTask(newTask);
+//    Task newTask = Task("NewTask",0);
+//    req.addTask(newTask);
+    req.deleteTask("5ade2d797a1c360eee3fc718");
     return 0;
 }

@@ -169,3 +169,21 @@ void TaskReq::addTask(Task _task) {
     /* always cleanup */
     curl_easy_cleanup(curl);
 }
+
+void TaskReq::deleteTask(std::string key) {
+    std::string askUrl = staticUrl + key;
+    if(curl) {
+        CURL *hnd = curl_easy_init();
+        curl_easy_setopt(hnd, CURLOPT_CUSTOMREQUEST, "DELETE");
+        curl_easy_setopt(hnd, CURLOPT_URL, askUrl.c_str());
+        struct curl_slist *headers = NULL;
+        headers = curl_slist_append(headers, "content-type: application/json");
+        curl_easy_setopt(hnd, CURLOPT_HTTPHEADER, headers);
+        CURLcode ret = curl_easy_perform(hnd);
+// do something...
+        curl_slist_free_all(headers);
+        curl_easy_cleanup(hnd);
+    }else{
+        std::cout << "\nNo conection with " << staticUrl << std::endl;
+    }
+}

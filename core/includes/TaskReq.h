@@ -28,7 +28,7 @@ public:
     Task getTask(std::string key);
     Tasks getTasks();
     void addTask(Task _task);
-
+    void deleteTask(std::string key);
 };
 
 
