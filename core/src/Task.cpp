@@ -9,6 +9,10 @@ Task::Task(std::string _id, std::string _name, int _isDone):
         name(_name),
         isDone(_isDone){}
 
+Task::Task(std::string _name, int _isDone):
+        name(_name),
+        isDone(_isDone){}
+
 
 std::string Task::getId() {
     return id;
